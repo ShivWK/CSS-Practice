@@ -1,0 +1,19 @@
+.multi-column {
+    column-count: 4;
+    column-gap: 20px;
+    column-rule: 2px solid balck;
+    /* column-width: 100px; */
+    border: 2px solid black;
+    padding: 5px;
+    color: red;
+}
+
+.list-a {
+    display: list-item;
+    list-style-type: circle;
+}
+
+.list-a::before {
+    content: ".";
+    margin-right: 2px;
+}
