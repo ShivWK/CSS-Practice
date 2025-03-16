@@ -57,3 +57,13 @@
       ),
       url("https://images.pexels.com/photos/1894263/pexels-photo-1894263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   }
+
+  /* each section will have full width and height and will have background-attaich : fixed, and ecah will have the background-image: which we wanna show when that section comes into view */
+
+  /* since background fixed hai to wo backgrond-image viewPort me ane ke bad hi banegi bottom se top tak screen ke bottom se picture ki bottom start hogi screen ke top pe picture ki top banegi */
+
+  /* to jab wo section veiewport me aega tabhi uski picture banegi */
+
+  
+
+
