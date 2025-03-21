@@ -30,14 +30,27 @@ body {
 
     ),
     url("https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
-    background-image: radial-gradient(circle,
+  /* background-image: radial-gradient(circle,
         red 0%,
         blue 20%,
         green 40%,
         yellow 60%,
         orange 80%,
         magenta 100%
-    );
+    ); */
+  background-color: rgb(2, 10, 78);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: blueviolet;
+  border-radius: 50%;
+  box-shadow: 50px 0 8px 8px red;
 }
