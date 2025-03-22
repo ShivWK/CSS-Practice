@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    min-height: 60vh;
+    background-color: aqua;
+    color: black;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(3, 100px);
+    gap: 2px;
+    /* margin: auto; */
+    padding:10%;
+}
+
+.grid {
+    background-color: yellow;
+    text-align: center;
+    padding: 5%;
+}
+
+.grid1 {
+    grid-row:2 / span 1;
+    grid-column: 2/ span 1;
+}
